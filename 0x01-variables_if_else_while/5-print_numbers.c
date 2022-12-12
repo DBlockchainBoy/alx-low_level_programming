@@ -9,7 +9,7 @@ int main(void)
 
 	for (base10_num = 0; base10_num <= 9; base10_num++)
 	{
-		printf("%d ", base10_num);
+		printf("%d", base10_num);
 	}
 	printf("\n");
 	return (0);
