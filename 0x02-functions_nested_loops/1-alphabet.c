@@ -1,17 +1,13 @@
 #include "main.h"
 
 /**
- * alphabet- Will print the english alphabet
- * Return: Always 0
+ * print_alphabet- Prints the english alphabet in lower case
  */
-char alphabet(void)
+void print_alphabet(void)
 {
 	char alph;
 
 	for (alph = 'a'; alph <= 'z'; alph++)
-	{
 		_putchar(alph);
-	}
 	_putchar('\n');
-	return (alph);
 }
